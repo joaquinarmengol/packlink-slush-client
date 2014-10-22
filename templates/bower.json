@@ -1,0 +1,14 @@
+{
+  "name": "<%= name %>",
+  "version": "<%= version %>",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {},
+  "resolutions": {}
+}

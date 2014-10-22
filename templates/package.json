@@ -1,0 +1,35 @@
+{
+  "name": "<%= name %>",
+  "description": " ",
+  "readme":      " ",
+  "repository":  " ",
+  "version": "<%= version %>",
+
+  "repository": "",
+  "dependencies": {},
+
+  "devDependencies": {
+    "cssmin": "latest",
+    "eslint": "latest",
+    "eslint-tap": "latest",
+    "htmlmin": "latest",
+    "htmlprocessor": "latest",
+    "sencisho": "latest",
+    "uglify-js": "latest"<% if (karma) { %>,
+    "karma": "latest",
+    "karma-coverage": "latest",
+    "karma-html2js-preprocessor": "latest",
+    "karma-jasmine": "latest",
+    "karma-jasmine-ajax": "latest",
+    "karma-junit-reporter": "latest",
+    "karma-phantomjs-launcher": "latest",
+    "karma-requirejs": "latest",
+    "plato": "latest"    <% } %>
+  },
+
+  "scripts": {
+    "start": "make server",
+    "lint":  "make lint"<% if (karma) { %>,
+    "test":  "make test"<% } %>
+  }
+}

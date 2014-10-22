@@ -1,0 +1,35 @@
+{
+  "name": "slush-client",
+  "readme": " ",
+  "version": "0.1.0",
+  "description": "A slush generator to create web apps",
+  "main": "slushfile.js",
+  "scripts": {
+    "pre-publish": "npm prune",
+    "test": "echo \"No tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "slushgenerator",
+    "Make"
+  ],
+  "author": "Julien Castelain <jcastelain@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "gulp": "latest",
+    "gulp-conflict": "latest",
+    "gulp-install": "latest",
+    "gulp-template": "latest",
+    "gulp-util": "latest",
+    "inquirer": "latest",
+    "semver": "^4.1.0",
+    "underscore.string": "latest"
+  }
+}
