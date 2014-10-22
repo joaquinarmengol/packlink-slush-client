@@ -8,7 +8,9 @@ slush-client
 Install `slush-client` globally:
 
 ```bash
-npm install -g slush-minimal
+git clone https://github.com/jcastelain/packlink-slush-client.git
+cd packlink-slush-client
+npm install -g .   # depending on your OS you might need to use sudo
 ```
 
 Remember to install `slush` globally as well, if you haven't already:
