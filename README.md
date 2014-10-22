@@ -19,6 +19,14 @@ Remember to install `slush` globally as well, if you haven't already:
 npm install -g slush
 ```
 
+## Debian requirements
+Debian sistem operator needs has installed nodejs version: `v0.10.32`
+
+```bash
+curl -sL https://deb.nodesource.com/setup | sudo bash -
+sudo apt-get install -y nodejs
+```
+
 ## Usage
 
 Create a new folder for your project:
